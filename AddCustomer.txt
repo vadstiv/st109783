@@ -1,0 +1,45 @@
+'-------------------------------------------------------------
+
+
+
+'''SUB PROCEDURES
+
+'--------------------------------------------------------------
+
+
+
+'SCRIPT ' a sub procedure call
+
+'*****************************************************************************
+
+'' ABC Automated Testing
+'' Copyright (c) 2021 Hollywood
+'' All Rights Reserved Worldwide
+'' Unauthorized Duplication or Distribution Prohibited
+'' *****************************************************************************
+'' FILENAME: addcustomer
+'' *****************************************************************************
+'' ABOUT THIS FILE 
+
+'' AUTHOR IDENTITY:
+
+'' Initials						City/State
+'' --------		 				-----------------------------------------
+'' JR 							Hollywood/CA
+
+'' REVISION HISTORY:
+
+'' Date/Initials	 	            Comments
+'' ---------					-------------------------------
+
+'' 10/26/2021      jr	            Created for LoanApp Version 2.1.08
+
+
+'' Valid input
+AddCustomer "Julia", "Roberts", "1100 Sunset",  "Holliwood", "CA", "98286"
+
+'' Invalid input Add customer without first name
+AddCustomer "", "Roberts", "1100 Sunset", "Holliwood", "CA", "98286"
+
+''Invalid input Add customer without last name
+AddCustomer "Julia", "", "1100 Sunset", "Holliwood", "CA", "98286"
